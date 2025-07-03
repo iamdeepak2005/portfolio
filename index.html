@@ -118,37 +118,12 @@
             
             <div class="skill-details">
                 <div class="skills-grid">
-                    <!-- <div class="skill-category">
-                        <h3>Generative AI</h3>
-                        <ul>
-                            <li>LLM Integration (OpenAI, Gemini)</li>
-                            <li>RAG Systems</li>
-                        </ul>
-                    </div> -->
+  
                     
           
                     
                     
-                    <!-- <div class="skill-category">
-                        <h3>AI Deployment</h3>
-                        <ul>
-                            <li>FastAPI</li>
-                            <li>Angular</li>
-                            <li>Spring Boot</li>
-                            <li>Django</li>
-                        </ul>
-                    </div> -->
-                    
-                    <!-- <div class="skill-category">
-                        <h3>Cloud & DevOps</h3>
-                        <ul>
-                            <li>AWS</li>
-                            <li>Google Cloud</li>
-                            <li>Docker</li>
-                            <li>Kubernetes</li>
-                            <li>CI/CD Pipelines</li>
-                        </ul>
-                    </div> -->
+  
                     <div class="skill-category">
                         <h3>Programming Languages</h3>
                         <ul>
@@ -2144,13 +2119,23 @@ async function sendMessage() {
                 grid-template-columns: 1fr;
                 grid-template-rows: auto;
             }
+            /* section{
+                display: none;
+            } */
+            .skills-section{
+                display: none;
+            }
         }
 
         @media (max-width: 600px) {
             .hero-content h1 {
                 font-size: 3rem;
             }
-            
+            /* section{
+                display: none;
+            }
+             */
+             
             .subtitle {
                 font-size: 1.4rem;
             }
@@ -2176,6 +2161,9 @@ async function sendMessage() {
             
             .chatbot-window {
                 width: 300px;
+            }
+            .skills-section{
+                display: none;
             }
         }
 
